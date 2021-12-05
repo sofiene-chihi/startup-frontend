@@ -19,6 +19,9 @@ import { StartupListComponent } from './components/startups/startup-list/startup
 import { StartupCardComponent } from './components/startups/startup-card/startup-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { StartupStatsComponent } from './components/startup-stats/startup-stats.component';
+import { StatsHeaderComponent } from './components/startup-stats/stats-header/stats-header.component';
+import { ChartsComponent } from './components/startup-stats/charts/charts.component';
+import { FormComponent } from './components/startup-stats/form/form.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +40,9 @@ import { StartupStatsComponent } from './components/startup-stats/startup-stats.
     StartupListComponent,
     StartupCardComponent,
     StartupStatsComponent,
+    StatsHeaderComponent,
+    ChartsComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,

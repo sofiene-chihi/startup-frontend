@@ -1,29 +1,31 @@
-<nav class="navbar navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg fixed">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img class="logo" src="../../../assets/images/logoe.png" alt="logo"></a>
+        <a class="navbar-brand" routerLink="/">
+            <img class="logo" src="../../../assets/images/logoe.png" alt="logo" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+                    <a class="nav-link active" aria-current="page" routerLink="/">Acceuil</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/startups">Startups</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Startups</a>
+                    <a class="nav-link" routerLink="/stats">Stats</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Stats</a>
+                    <a class="nav-link" href="home#contactUs">Contactez-nous</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contactez-nous</a>
-                </li>
-
             </ul>
             <form class="d-flex Search">
-                <input class="form-control me-2" type="search" placeholder="recherche.." aria-label="Search">
-                <button class="btn btn-outline-light" style="background-color: #242582;" type="submit ">Chercher</button>
+                <input class="form-control me-2" type="search" placeholder="recherche.." aria-label="Search" />
+                <button class="btn btn-outline-light" style="background-color: #242582" type="submit ">
+          Chercher
+        </button>
             </form>
         </div>
     </div>

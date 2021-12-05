@@ -1,6 +1,6 @@
 .title {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 80px;
     margin: auto;
     font-weight: bold;
     color: #151144;
@@ -15,4 +15,8 @@ p {
     width: 350px;
     object-fit: cover;
     float: right;
+}
+
+.aboutus {
+    padding-bottom: 80px;
 }

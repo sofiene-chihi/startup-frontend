@@ -13,6 +13,13 @@ import { StatsComponent } from './components/home/stats/stats.component';
 import { ContactusComponent } from './components/home/contactus/contactus.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { StartupsComponent } from './components/startups/startups.component';
+import { SHeaderComponent } from './components/startups/s-header/s-header.component';
+import { StartupListComponent } from './components/startups/startup-list/startup-list.component';
+import { StartupCardComponent } from './components/startups/startup-card/startup-card.component';
+import { HttpClientModule } from '@angular/common/http';
+import { StartupStatsComponent } from './components/startup-stats/startup-stats.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,8 +32,18 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     StatsComponent,
     ContactusComponent,
     FooterComponent,
+    StartupsComponent,
+    SHeaderComponent,
+    StartupListComponent,
+    StartupCardComponent,
+    StartupStatsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FontAwesomeModule,
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -23,3 +23,7 @@ img {
     font-style: italic;
     float: right;
 }
+
+.container {
+    padding-bottom: 50px;
+}

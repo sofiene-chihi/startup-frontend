@@ -1,0 +1,38 @@
+.header {
+    background-image: url("../../../../assets/images/header_img.jpg");
+    height: 900px;
+}
+
+.quote {
+    text-align: center;
+    color: #151144;
+    margin: auto;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 80px;
+}
+
+a {
+    color: #151144;
+}
+
+span {
+    color: #f64c72;
+}
+
+p {
+    font-size: 14px;
+    font-weight: initial;
+    bottom: 5px;
+    right: 5px;
+}
+
+.fleche {
+    text-align: center;
+    color: #151144;
+    margin: auto;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 80px;
+    padding-top: 120px;
+}

@@ -38,8 +38,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Run the project
 
 -> To run the project locally, open the angular project and run it on port 4200 using : ng serve -o
--> To use the backend server successfuly, create a mysql database named startup ( you can change the credentials in )
--> Run the backend server with the command : npm run start:dev
+-> To use the backend server successfuly, create a mysql database named startup ( you can change the credentials in app.module.ts file)
+-> Run the backend server with the command : npm run start:dev ( the database is then created )
+-> To set the database with the data, open the browser and type the url http://localhost/startup/setData ( if the command run successfuly you will get a json response with the new data in the database)
+->then the frontend project can get the needed data from the database throught the backend server
 
 ---
 

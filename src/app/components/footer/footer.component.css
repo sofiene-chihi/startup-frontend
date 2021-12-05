@@ -1,0 +1,25 @@
+.footer {
+    min-height: 300px;
+    background-color: #151144;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    padding-top: 70px;
+}
+
+p {
+    color: white;
+}
+
+fa-icon {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+fa-icon:hover {
+    color: #f64c72;
+}

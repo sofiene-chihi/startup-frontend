@@ -1,0 +1,9 @@
+.list {
+    margin: auto;
+    text-align: center;
+}
+
+.items {
+    display: inline;
+    margin-right: 15px;
+}

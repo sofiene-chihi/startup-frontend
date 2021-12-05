@@ -1,0 +1,26 @@
+.navbar {
+    background-color: white;
+}
+
+.Search {
+    color: white;
+}
+
+.nav-link {
+    color: #2f2fa2;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+li {
+    margin-left: 50px;
+}
+
+.nav-link:hover {
+    color: #f64c72;
+}
+
+.logo {
+    width: 160px;
+    object-fit: cover;
+}

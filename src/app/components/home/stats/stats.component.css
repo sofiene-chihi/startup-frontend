@@ -1,0 +1,25 @@
+.title {
+    text-align: center;
+    padding-top: 40px;
+    margin: auto;
+    padding-bottom: 60px;
+    font-weight: bold;
+    color: #151144;
+}
+
+img {
+    margin-top: 50px;
+    float: right;
+}
+
+.stat {
+    border-bottom: 1px lightgray solid;
+}
+
+.number {
+    padding-top: 10px;
+    color: #f64c72;
+    font-size: 30px;
+    font-style: italic;
+    float: right;
+}
